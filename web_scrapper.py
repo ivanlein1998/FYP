@@ -1,7 +1,7 @@
 # Name: Lein Chun Hang SID: 55235744 20CS023 Mobile_app_for_monitoring_Traffic_Condition
 import requests  
 response = requests.get("https://az511.gov/map/Cctv/4250--14")  
-file = open("Camelback_rd.jpg", "wb")  
+file = open("camelback_rd.jpg", "wb")  
 file.write(response.content)  
 
 response = requests.get("https://az511.gov/map/Cctv/4343--14")  
